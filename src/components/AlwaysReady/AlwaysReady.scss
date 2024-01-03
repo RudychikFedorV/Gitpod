@@ -28,7 +28,7 @@
   .btn {
     border-radius: 16px;
     background: $btn-1;
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: $-box-shadow;
     margin-bottom: 18px;
   }
   &__button {
