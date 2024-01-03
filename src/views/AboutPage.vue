@@ -37,6 +37,6 @@ export default {
 
 <style lang="scss">
 h1 {
-	color: $red;
+	color: red;
 }
 </style>

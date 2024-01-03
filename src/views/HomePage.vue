@@ -1,7 +1,9 @@
 <template>
-  <div class="container">
+  <div class="containerOne">
     <HeaderBlock />
-    <AlwaysReady />
+    <div class="containerTwo">
+      <AlwaysReady />
+    </div>
   </div>
 </template>
 
@@ -17,6 +19,9 @@ export default {
     };
   },
   methods: {},
-  components: { HeaderBlock, AlwaysReady },
+  components: {
+    HeaderBlock,
+    AlwaysReady,
+  },
 };
 </script>

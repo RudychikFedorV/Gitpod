@@ -1,1 +1,13 @@
-$red: rgb(255, 3, 125);
+:root {
+  --html-fs: 1px;
+  --ff: "Roboto", sans-serif;
+  --transition: 0.2s all ease-in-out;
+
+  --Text-80: 700 80px / normal var(--ff);
+  --Text-23: 400 23px / normal var(--ff);
+  --Text-18: 700 18px / normal var(--ff);
+  --Text-16: 400 16px / normal var(--ff);
+}
+$color-80: #12100c;
+$color-23: rgba(18, 16, 12, 0.7);
+$btn-1: #ffae33;

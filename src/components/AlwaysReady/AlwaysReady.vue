@@ -1,6 +1,6 @@
 <template>
   <div class="alwaysReady">
-    <div class="container">
+    <div class="alwaysReady__sections">
       <div class="alwaysReady__block">
         <div class="alwaysReady__title">
           Always
@@ -12,15 +12,25 @@
         </div>
         <div class="alwaysReady__section">
           <div class="alwaysReady__icons">
-            <div class="alwaysReady__button">Try Now</div>
-            <div class="alwaysReady__gitlab">
-              <img src="@/assets/AlwaysReady/gitlab.svg" alt="Gitlab" />
-            </div>
-            <div class="alwaysReady__gitHub">
-              <img src="@/assets/AlwaysReady/gitHub.svg" alt="GitHub" />
-            </div>
-            <div class="alwaysReady__bitbucket">
-              <img src="@/assets/AlwaysReady/bitbucket.svg" alt="Bitbucket" />
+            <router-link to="/"
+              ><div class="alwaysReady__button btn">Try Now</div></router-link
+            >
+
+            <div class="alwaysReady__icon">
+              <router-link to="/"
+                ><div class="alwaysReady__gitlab">
+                  <img src="@/assets/AlwaysReady/gitlab.svg" alt="Gitlab" /></div
+              ></router-link>
+
+              <router-link to="/"
+                ><div class="alwaysReady__gitHub">
+                  <img src="@/assets/AlwaysReady/gitHub.svg" alt="GitHub" /></div
+              ></router-link>
+
+              <router-link to="/"
+                ><div class="alwaysReady__bitbucket">
+                  <img src="@/assets/AlwaysReady/bitbucket.svg" alt="Bitbucket" /></div
+              ></router-link>
             </div>
           </div>
           <div class="alwaysReady__text">
@@ -29,9 +39,10 @@
           </div>
         </div>
       </div>
-      <div class="alwaysReady__foto">
-        <img src="@/assets/AlwaysReady/foto.png" alt="Logo" />
-      </div>
+      <router-link to="/"
+        ><div class="alwaysReady__foto">
+          <img src="@/assets/AlwaysReady/foto.png" alt="Logo" /></div
+      ></router-link>
     </div>
   </div>
 </template>
@@ -40,4 +51,6 @@
 export default {};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@import "@/components/AlwaysReady/AlwaysReady.scss";
+</style>
