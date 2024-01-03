@@ -1,0 +1,45 @@
+.SecureDesign {
+  padding-top: 177px;
+  padding-bottom: 176px;
+
+  &__title {
+    color: $color-80;
+    text-align: center;
+    font: var(--Text-54);
+    line-height: 71.82px;
+    margin-bottom: 47px;
+  }
+
+  &__img {
+    border-radius: 14px;
+    margin-bottom: 49px;
+  }
+
+  &__info {
+    max-width: 877px;
+    color: $color-23;
+    text-align: center;
+    margin-inline: auto;
+    font: var(--Text-24);
+    line-height: 31.92px;
+    margin-bottom: 45px;
+  }
+
+  &__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  &__сhrome,
+  &__fox {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 11px 12px;
+    border-radius: 9px;
+    background: $btn-3;
+    box-shadow: $-box-shadow-2;
+  }
+}

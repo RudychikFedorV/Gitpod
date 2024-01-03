@@ -30,6 +30,11 @@
     background: $btn-1;
     box-shadow: $-box-shadow;
     margin-bottom: 18px;
+    transition: var(--transition);
+
+    &:hover {
+      background: lighten($btn-1, 5%);
+    }
   }
   &__button {
     padding: 11px 46px;
@@ -37,6 +42,9 @@
     text-align: center;
     font: var(--Text-18);
     line-height: 22.5px;
+  }
+  &__button:hover {
+    color: $color-hover;
   }
   &__icon {
     display: flex;
@@ -46,5 +54,10 @@
     color: $color-23;
     font: var(--Text-16);
     line-height: 24px;
+  }
+  &__foto {
+    max-width: 630px;
+    max-height: 652px;
+    flex-shrink: 0;
   }
 }
