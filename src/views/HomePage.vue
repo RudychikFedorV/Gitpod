@@ -6,6 +6,7 @@
       <SelectProject />
       <CiCd />
       <SecureDesign />
+      <UsedDevelopers />
     </div>
   </div>
 </template>
@@ -16,6 +17,7 @@ import AlwaysReady from "@/components/AlwaysReady/AlwaysReady.vue";
 import SelectProject from "@/components/SelectProject/SelectProject.vue";
 import CiCd from "@/components/CiCd/CiCd.vue";
 import SecureDesign from "@/components/SecureDesign/SecureDesign.vue";
+import UsedDevelopers from "@/components/UsedDevelopers/UsedDevelopers.vue";
 
 export default {
   name: "HomePage",
@@ -31,6 +33,7 @@ export default {
     SelectProject,
     CiCd,
     SecureDesign,
-  },
+    UsedDevelopers,
+},
 };
 </script>

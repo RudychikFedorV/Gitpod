@@ -12,9 +12,8 @@
     align-items: center;
     gap: 48px;
     a {
-      color: rgba(18, 16, 12, 0.7);
-      font-size: 16px;
-      font-weight: 400;
+      color: $color-23;
+      font:var(--Text-16);
       line-height: 24px;
     }
     @include tablet {
@@ -25,14 +24,14 @@
       height: 100%;
       flex-direction: column;
       justify-content: center;
-      background: rgba(0, 0, 0, 0.8);
+      background: $color-24;
       transform: translateX(120%);
       transition: 0.2s ease-in;
       &.is-active {
         transform: translateX(0);
       }
       a {
-        color: #fff;
+        color: $btn-3;
       }
     }
   }
@@ -53,7 +52,7 @@
     position: absolute;
     top: 20px;
     right: 20px;
-    background: orange;
+    background: $btn-1;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -66,12 +65,11 @@
       min-width: 82px;
       padding: 6px 23px;
       display: inline-block;
-      color: #f9f9f9;
-      font-size: 14px;
-      font-weight: 400;
+      color: $btn-4;
+      font:var( --Text-14);
       line-height: 20px;
       border-radius: 12px;
-      background: #12100c;
+      background: $color-80;
     }
     @include tablet {
       display: none;
