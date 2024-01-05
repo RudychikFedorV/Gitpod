@@ -46,14 +46,15 @@ export default {};
 <style lang="scss" scoped>
 .GetNow {
   &__section1 {
-    max-width: 642px;
+    display: flex;
+    flex-direction: column;
+   width: 642px;
     flex-shrink: 0;
     border-radius: 20px;
     background: $btn-3;
-    width: 100%;
+    padding: 56px;
   }
   &__text {
-    margin-top: 56px;
     color: $color-80;
     text-align: center;
     font: var(--Text-32);
@@ -63,8 +64,9 @@ export default {};
   &__info {
     max-width: 471px;
     color: $color-23;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin-inline: auto;
     font: var(--Text-24);
     line-height: 31.92px;
     margin-bottom: 62px;
