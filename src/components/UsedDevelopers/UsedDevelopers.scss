@@ -1,5 +1,5 @@
 .UsedDevelopers {
-
+  margin-bottom: 177px;
   &__title {
     color: $color-80;
     text-align: center;
@@ -10,5 +10,24 @@
 
   &__swiper {
     margin-bottom: 32px;
+  }
+
+  &__icons {
+    margin-top: 95px;
+    padding: 0 123px;
+  }
+  &__icon1 {
+    gap: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  &__icon2 {
+    gap: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 21px;
   }
 }

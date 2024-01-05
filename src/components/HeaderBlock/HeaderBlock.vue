@@ -1,7 +1,7 @@
 <template>
 	<div class="header">
 		<router-link to="/" class="header__logo">
-			<img src="@/assets/logo.svg" alt="gitpod" />
+			<img src="@/assets/logo.svg" alt="Gitpod" />
 		</router-link>
 		<div class="header__nav" :class="{ 'is-active': isActive }" @click="isActive = false">
 			<router-link to="/">Features</router-link>

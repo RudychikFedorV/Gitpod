@@ -20,6 +20,49 @@
         ></swiper-slide>
       </swiper>
     </div>
+    <div class="UsedDevelopers__icons">
+      <div class="UsedDevelopers__icon1">
+        <router-link to="/"
+          ><img src="@/assets/UsedDevelopers/1.svg" alt="1"
+        /></router-link>
+        <router-link to="/"
+          ><img src="@/assets/UsedDevelopers/2.svg" alt="2"
+        /></router-link>
+        <router-link to="/"
+          ><img src="@/assets/UsedDevelopers/3.svg" alt="3"
+        /></router-link>
+        <router-link to="/"
+          ><img src="@/assets/UsedDevelopers/4.svg" alt="4"
+        /></router-link>
+        <router-link to="/"
+          ><img src="@/assets/UsedDevelopers/5.svg" alt="5"
+        /></router-link>
+        <router-link to="/"
+          ><img src="@/assets/UsedDevelopers/6.svg" alt="6"
+        /></router-link>
+        <router-link to="/"
+          ><img src="@/assets/UsedDevelopers/7.svg" alt="7"
+        /></router-link>
+      </div>
+
+      <div class="UsedDevelopers__icon2">
+        <router-link to="/"
+          ><img src="@/assets/UsedDevelopers/8.svg" alt="8"
+        /></router-link>
+        <router-link to="/"
+          ><img src="@/assets/UsedDevelopers/9.svg" alt="9"
+        /></router-link>
+        <router-link to="/"
+          ><img src="@/assets/UsedDevelopers/10.svg" alt="10"
+        /></router-link>
+        <router-link to="/"
+          ><img src="@/assets/UsedDevelopers/11.svg" alt="11"
+        /></router-link>
+        <router-link to="/"
+          ><img src="@/assets/UsedDevelopers/12.svg" alt="12"
+        /></router-link>
+      </div>
+    </div>
   </div>
 </template>
 
