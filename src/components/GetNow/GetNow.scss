@@ -1,0 +1,13 @@
+.GetNow {
+  &__title {
+    color: $color-80;
+    text-align: center;
+    font: var(--Text-54);
+    line-height: 71.82px;
+    margin-bottom: 48px;
+  }
+  &__sections {
+    display: flex;
+    gap: 26px;
+  }
+}

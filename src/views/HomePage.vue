@@ -7,6 +7,7 @@
       <CiCd />
       <SecureDesign />
       <UsedDevelopers />
+      <GetNow />
     </div>
   </div>
 </template>
@@ -18,7 +19,7 @@ import SelectProject from "@/components/SelectProject/SelectProject.vue";
 import CiCd from "@/components/CiCd/CiCd.vue";
 import SecureDesign from "@/components/SecureDesign/SecureDesign.vue";
 import UsedDevelopers from "@/components/UsedDevelopers/UsedDevelopers.vue";
-
+import GetNow from "@/components/GetNow/GetNow.vue";
 export default {
   name: "HomePage",
   data() {
@@ -34,6 +35,11 @@ export default {
     CiCd,
     SecureDesign,
     UsedDevelopers,
+    GetNow,
 },
 };
 </script>
+
+<style lang="scss" scoped>
+
+</style>
