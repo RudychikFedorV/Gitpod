@@ -24,7 +24,7 @@ export default {};
     box-shadow: $-box-shadow;
     padding: 8px 12px;
     &:hover {
-      background: lighten($color-80, 5%);
+      background: lighten($color-80, 25%);
     }
   }
 }

@@ -69,11 +69,12 @@ export default {
   &__section2 {
     display: flex;
     flex-direction: column;
-    width: 642px;
+    max-width: 642px;
     flex-shrink: 0;
     border-radius: 20px;
     background: $btn-3;
     padding: 56px;
+    width: 100%;
   }
   &__title {
     color: $color-80;
@@ -118,7 +119,6 @@ export default {
     align-items: center;
     font: var(--Text-20);
     line-height: 20px;
-    // margin-right: 182px;
   }
 }
 </style>

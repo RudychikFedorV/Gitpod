@@ -48,11 +48,12 @@ export default {};
   &__section1 {
     display: flex;
     flex-direction: column;
-   width: 642px;
+    max-width: 642px;
     flex-shrink: 0;
     border-radius: 20px;
     background: $btn-3;
     padding: 56px;
+    width: 100%;
   }
   &__text {
     color: $color-80;
@@ -97,7 +98,7 @@ export default {};
     background: $color-81;
     padding: 9px 50px 9px 33px;
     &:hover {
-      background: lighten($color-81, 5%);
+      background: lighten($color-81, 25%);
     }
   }
   &__bitbucket {
@@ -130,7 +131,7 @@ export default {};
     background: $color-53;
     max-width: 151px;
     margin-inline: auto;
-    margin-bottom: 86px;
+    margin-bottom: 30px;
   }
 }
 </style>

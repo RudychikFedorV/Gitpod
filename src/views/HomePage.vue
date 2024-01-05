@@ -9,6 +9,7 @@
       <UsedDevelopers />
       <GetNow />
     </div>
+    <ContactsPage />
   </div>
 </template>
 
@@ -20,6 +21,8 @@ import CiCd from "@/components/CiCd/CiCd.vue";
 import SecureDesign from "@/components/SecureDesign/SecureDesign.vue";
 import UsedDevelopers from "@/components/UsedDevelopers/UsedDevelopers.vue";
 import GetNow from "@/components/GetNow/GetNow.vue";
+import ContactsPage from "@/components/ContactsPage/ContactsPage.vue";
+
 export default {
   name: "HomePage",
   data() {
@@ -36,6 +39,7 @@ export default {
     SecureDesign,
     UsedDevelopers,
     GetNow,
+    ContactsPage,
 },
 };
 </script>

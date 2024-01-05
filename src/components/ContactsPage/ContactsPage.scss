@@ -1,0 +1,26 @@
+.ContactsPage {
+  margin-top: 160px;
+  max-width: 900px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  //   background: #F9F9F9;
+
+  .title {
+    color: $color-80;
+    font: var(--Text-13);
+    line-height: 19.5px;
+  }
+  .indentation {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 41px;
+  }
+  .tx {
+    color: $color-23;
+    font: var(--Text-13-4);
+    line-height: 19.5px;
+  }
+}
