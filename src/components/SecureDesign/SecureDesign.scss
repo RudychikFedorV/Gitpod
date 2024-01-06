@@ -42,4 +42,9 @@
     background: $btn-3;
     box-shadow: $-box-shadow-2;
   }
+  &__text {
+    color: $color-80;
+    font: var(--Text-18);
+    line-height: 31.86px;
+  }
 }

@@ -10,6 +10,7 @@
       <GetNow />
     </div>
     <ContactsPage />
+    <AcceptCookies />
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import SecureDesign from "@/components/SecureDesign/SecureDesign.vue";
 import UsedDevelopers from "@/components/UsedDevelopers/UsedDevelopers.vue";
 import GetNow from "@/components/GetNow/GetNow.vue";
 import ContactsPage from "@/components/ContactsPage/ContactsPage.vue";
+import AcceptCookies from "@/components/AcceptCookies/AcceptCookies.vue";
 
 export default {
   name: "HomePage",
@@ -40,6 +42,7 @@ export default {
     UsedDevelopers,
     GetNow,
     ContactsPage,
+    AcceptCookies,
 },
 };
 </script>

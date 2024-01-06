@@ -90,22 +90,25 @@ export default {};
   &__gitlab {
     background: $btn-1;
     padding: 9px 53px 9px 33px;
+    transition: var(--transition);
     &:hover {
-      background: lighten($btn-1, 5%);
+      background: lighten($btn-1, 15%);
     }
   }
   &__gitHub {
     background: $color-81;
     padding: 9px 50px 9px 33px;
+    transition: var(--transition);
     &:hover {
-      background: lighten($color-81, 25%);
+      background: lighten($color-81, 15%);
     }
   }
   &__bitbucket {
     background: $color-82;
     padding: 9px 33px;
+    transition: var(--transition);
     &:hover {
-      background: lighten($color-82, 5%);
+      background: lighten($color-82, 15%);
     }
   }
   .texts {

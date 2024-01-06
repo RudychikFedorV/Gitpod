@@ -77,13 +77,12 @@
 
     <div class="ContactsPage__icons">
       <div class="ContactsPage__gitpods">
-          <router-link to="/"
-        ><div class="ContactsPage__gitpod">
-            <img src="@/assets/ContactsPage/g.svg" alt="icon" />
-          </div></router-link>
-          <div class="ContactsPage__inform">Copyright © 2124 Gitpod</div>
-        </div>
-      
+        <router-link to="/"
+          ><div class="ContactsPage__gitpod">
+            <img src="@/assets/ContactsPage/g.svg" alt="icon" /></div
+        ></router-link>
+        <div class="ContactsPage__inform">Copyright © 2124 Gitpod</div>
+      </div>
 
       <div class="ContactsPage__icon">
         <router-link to="/"

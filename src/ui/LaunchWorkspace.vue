@@ -23,8 +23,9 @@ export default {};
     background: $color-80;
     box-shadow: $-box-shadow;
     padding: 8px 12px;
+    transition: var(--transition);
     &:hover {
-      background: lighten($color-80, 25%);
+      background: lighten($color-80, 15%);
     }
   }
 }
