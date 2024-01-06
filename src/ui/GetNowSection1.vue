@@ -39,9 +39,7 @@
   </div>
 </template>
 
-<script>
-export default {};
-</script>
+<script></script>
 
 <style lang="scss" scoped>
 .GetNow {

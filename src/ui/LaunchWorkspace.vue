@@ -1,9 +1,7 @@
 <template>
   <router-link to="/"><div class="GetNow__btn btn">Launch workspace</div></router-link>
 </template>
-<script>
-export default {};
-</script>
+<script></script>
 <style lang="scss" scoped>
 .GetNow {
   &__btn {

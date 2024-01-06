@@ -8,9 +8,7 @@
     <div class="SelectProject__title">start coding.</div>
   </div>
 </template>
-<script>
-export default {};
-</script>
+<script></script>
 <style lang="scss" scoped>
 @import "@/components/SelectProject/SelectProject.scss";
 </style>

@@ -19,17 +19,29 @@
             <div class="alwaysReady__icon">
               <router-link to="/"
                 ><div class="alwaysReady__gitlab">
-                  <img src="@/assets/AlwaysReady/gitlab.svg" alt="Gitlab" title="Gitlab" /></div
+                  <img
+                    src="@/assets/AlwaysReady/gitlab.svg"
+                    alt="Gitlab"
+                    title="Gitlab"
+                  /></div
               ></router-link>
 
               <router-link to="/"
                 ><div class="alwaysReady__gitHub">
-                  <img src="@/assets/AlwaysReady/gitHub.svg" alt="GitHub" title="GitHub" /></div
+                  <img
+                    src="@/assets/AlwaysReady/gitHub.svg"
+                    alt="GitHub"
+                    title="GitHub"
+                  /></div
               ></router-link>
 
               <router-link to="/"
                 ><div class="alwaysReady__bitbucket">
-                  <img src="@/assets/AlwaysReady/bitbucket.svg" alt="Bitbucket" title="Bitbucket" /></div
+                  <img
+                    src="@/assets/AlwaysReady/bitbucket.svg"
+                    alt="Bitbucket"
+                    title="Bitbucket"
+                  /></div
               ></router-link>
             </div>
           </div>
@@ -47,9 +59,7 @@
   </div>
 </template>
 
-<script>
-export default {};
-</script>
+<script></script>
 
 <style lang="scss" scoped>
 @import "@/components/AlwaysReady/AlwaysReady.scss";
