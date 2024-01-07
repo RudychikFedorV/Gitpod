@@ -1,6 +1,10 @@
 .SelectProject {
   padding-top: 158px;
   padding-bottom: 161px;
+  @include desktop-small {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
 
   &__title {
     color: $color-80;

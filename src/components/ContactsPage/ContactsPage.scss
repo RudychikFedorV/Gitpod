@@ -3,6 +3,10 @@
   background: $btn-4;
   border-radius: 20px;
 
+  @include desktop-small {
+    margin-top: 60px;
+  }
+
   .container {
     display: flex;
     justify-content: space-between;

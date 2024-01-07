@@ -10,5 +10,10 @@
     display: flex;
     justify-content: center;
     gap: 26px;
+    @include desktop-small {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
