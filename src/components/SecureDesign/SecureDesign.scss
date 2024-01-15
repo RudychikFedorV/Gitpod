@@ -18,9 +18,7 @@
   &__img {
     border-radius: 14px;
     margin-bottom: 49px;
-    @include desktop-small {
-      display: none;
-    }
+    max-width: 1269px;
   }
 
   &__info {

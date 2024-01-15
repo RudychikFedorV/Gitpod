@@ -85,6 +85,7 @@ export default {
     SwiperSlide4,
     SwiperSlide5,
   },
+  
 };
 </script>
 
